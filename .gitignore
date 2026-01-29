@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (optional – keep if you want to upload dataset)
+*.csv
+*.xlsx
+
+# Model files
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# IDEs & Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
