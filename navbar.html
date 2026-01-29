@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{% url 'home' %}">Heart Disease Predictor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+            <a class="nav-item nav-link mr-3 {% if heart %} {{active}} {% endif %} " href="{% url 'heart' %}">Heart
+                Disease Prediction
+      
+</nav>
